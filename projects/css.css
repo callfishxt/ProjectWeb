@@ -1,0 +1,98 @@
+body {
+    background-color: rgb(83, 97, 112);
+    opacity: 1;
+    margin-left: 1.2ch;
+    color: #444242;
+    font-family: monospace;
+
+    font-size:  large;
+    background: url("project-1-fold/\ history.jpg");
+    background-repeat: no-repeat;
+    
+    background-size: cover;
+}
+.container-buttons {
+    display: flex;
+    justify-content: space-around;
+}
+.buttons-list {
+    display:contents;
+    justify-content: space-between;
+    background-color: #308888;
+}
+.buttons-list-scroll {
+    display:contents;
+    justify-content: space-between;
+    overflow-y: scroll;
+    
+}
+.white_area {
+    color: white;
+}
+.headr {
+    position: relative;
+  z-index: 5;
+  min-height: 20px;
+  padding: 10px;
+  color: white;
+  background-position: 10px 0, 10px 0, 0 0, 0 0;
+  background-size: 10px 3px;
+  background-color: #2890ff;
+  box-shadow: 0 0 5px 0 #333333;
+}
+
+.main-btn {
+    font-size: large;
+    font-family: monospace;
+    border: none;
+    border-radius: 2px;
+    text-decoration: none;
+    color: white;
+    background: #224B62F5;
+    transition: .2s linear;
+}
+
+
+.main-btn:hover {
+    -webkit-transform: rotateZ(-5deg);
+    -ms-transform: rotateZ(-5deg);
+    transform: rotateZ(-5deg);
+}
+.an-btn {
+    font-size: large;
+    font-family: monospace;
+    border: none;
+    border-radius: 2px;
+    text-decoration: none;
+    color: white;
+    background: #224B62F5;
+    transition: .2s linear;
+}
+.an-btn:hover {
+    box-shadow: 2px 2px rgb(47, 100, 82), 4px 4px #308888;
+    top: -4px;
+    left: -4px;
+}
+
+.btn-new {
+    
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    background: #43759bf5;
+    box-shadow: 0 5px 0 #33759bf5;
+}
+
+.btn-new:hover {
+    background: #224B62F5;
+    box-shadow: none;
+    position: relative;
+    top: 5px;
+}
+.btn-new:active {
+    background: #724B62A5;
+    box-shadow: none;
+    position: relative;
+    top: 5px;
+}
